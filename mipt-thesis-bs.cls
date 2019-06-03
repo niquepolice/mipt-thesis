@@ -14,6 +14,7 @@
 % Math packages, should be loaded before fontenc and babel for Cyrillic
 \RequirePackage{amsmath,amsthm,amssymb}
 \RequirePackage{mathtext}
+
 % Fonts and lang
 \RequirePackage[T1,TS1,T2A]{fontenc}
 \RequirePackage[utf8]{inputenc}

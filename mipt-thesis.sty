@@ -8,6 +8,8 @@
 % Additional integral symbols
 \RequirePackage{esint}
 
+\RequirePackage{mathtools}
+
 % Graphics
 \RequirePackage{graphicx}
 \RequirePackage{subcaption}
@@ -20,5 +22,12 @@
 \counterwithout{equation}{chapter}
 \counterwithout{table}{chapter}
 
-
+%\newtheorem {Lem}{Лемма}
+\newtheorem {theorem}{Теорема}
+\newcommand {\Def}[0]       {\textbf{Определение.} }
+\def \L     {\mathcal{L}}
+\def \N    {\mathbb {N}}
+\def \F   {\mathcal{F}}
+\def \R    {\mathbb {R}}
+\def \Q    {\mathbb {Q}}
 \endinput
