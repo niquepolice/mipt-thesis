@@ -22,12 +22,22 @@
 \counterwithout{equation}{chapter}
 \counterwithout{table}{chapter}
 
-%\newtheorem {Lem}{Лемма}
+\newtheorem {Lem}{Лемма}
 \newtheorem {theorem}{Теорема}
 \newcommand {\Def}[0]       {\textbf{Определение.} }
-\def \L     {\mathcal{L}}
+\def \LL     {\mathcal{L}}
 \def \N    {\mathbb {N}}
 \def \F   {\mathcal{F}}
 \def \R    {\mathbb {R}}
 \def \Q    {\mathbb {Q}}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=red,
+    filecolor=red,
+    linkcolor=red,
+    urlcolor=red
+}
+
 \endinput
