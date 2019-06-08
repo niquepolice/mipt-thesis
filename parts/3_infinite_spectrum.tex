@@ -1,6 +1,6 @@
 
-\Def \textit{Спектром} формулы $\varphi$ называется множество $\alpha$ таких, что вероятность $P\left( G\left(N, N^{-\alpha}\right) \vDash \varphi  \right)$ не стремится ни к 0, ни к 1 при $N \rightarrow \infty$.
-Здесь использовано обозначение $G \vDash \varphi$, означающее, что для графа $G$ справедливо $\varphi$.
+\Def \textit{Спектром} формулы $\varphi$ называется множество $\alpha$ таких, что вероятность $\P\left( G\left(N, N^{-\alpha}\right) \vDash \varphi  \right)$ не стремится ни к 0, ни к 1 при $N \rightarrow \infty$.
+Здесь использовано обозначение $G \vDash \varphi$, означающее, что для графа $G$ истинна $\varphi$.
 
 \begin{theorem}
 В языке $\LL^3_{\infty, \omega}$ существует формула с бесконечным спектром с предельной точкой 1 (справа).
@@ -28,13 +28,13 @@
 
 Количество простых путей длины $2k$ в $G(N, N^{-\frac{2k+1}{2k}})$ имеет асимптотическое распределение $Poiss(1/2)$, поэтому
 $$
-P(G(n, p) \models \varphi) = 
-P(G(n, p) \models \neg \varphi_{2k}) \rightarrow e^{-1/2}
+\P(G(n, p) \models \varphi) = 
+\P(G(n, p) \models \neg \varphi_{2k}) \rightarrow e^{-1/2}
 $$
 
 Аналогично, при $\alpha = 1 + \frac{1}{2k+1}$ 
-$$P(G(n, p) \models \varphi) = 
-P\left(G\left(n, p \right) \models  \varphi_{2k+1}\right) \rightarrow 1 - e^{-1/2}$$
+$$\P(G(n, p) \models \varphi) = 
+\P\left(G\left(n, p \right) \models  \varphi_{2k+1}\right) \rightarrow 1 - e^{-1/2}$$
 
 Таким образом, спектр формулы $\varphi$ содержит множество $\{1 + 1/k ~|~ k > 5 \}$, что и требовалось.
 \end{proof}
