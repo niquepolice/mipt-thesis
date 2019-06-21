@@ -18,11 +18,14 @@
 
 % Set continuous numbering
 \RequirePackage{chngcntr}
-\counterwithout{figure}{chapter}
-\counterwithout{equation}{chapter}
-\counterwithout{table}{chapter}
+%\counterwithout{figure}{chapter}
+%\counterwithout{equation}{chapter}
+%\counterwithout{table}{chapter}
 
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
 \usepackage{ mathrsfs }
+\usepackage{ dsfont }
 \newtheorem {Lem}{Лемма}
 \newtheorem {theorem}{Теорема}
 \newcommand {\Def}[0]       {\textbf{Определение.} }
@@ -32,6 +35,10 @@
 \def \R    {\mathbb {R}}
 \def \Q    {\mathbb {Q}}
 \def \P {{\sf P}}
+\def \E {\mathds{E}}
+\def \eps {\varepsilon}
+\def \Gna {G\left(N,N^{-\alpha}\right)}
+\def \bfN {\mathbf{N}}
 
 \usepackage{hyperref}
 \hypersetup{

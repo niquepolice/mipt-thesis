@@ -7,7 +7,7 @@
 }
 \ProcessOptions\relax
 
-\LoadClass[a4paper,12pt]{book}
+\LoadClass[a4paper,12pt]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Useful packages %%%%%
@@ -169,7 +169,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Right TOC numbering %%%%%
-\renewcommand{\cftchapaftersnum}{.}
+%\renewcommand{\cftchapaftersnum}{.}
 \renewcommand{\cftsecaftersnum}{.}
 \renewcommand{\cftsubsecaftersnum}{.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
