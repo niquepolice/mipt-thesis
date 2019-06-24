@@ -32,7 +32,7 @@
 
 %%%%% Set up correct formatting %%%%%
 \geometry{left=3cm}
-\geometry{right=2cm}
+\geometry{right=1.5cm}
 \geometry{top=2cm}
 \geometry{bottom=2cm}
 \onehalfspace
@@ -157,11 +157,19 @@
 %%%%%%%% Headings
 \fancypagestyle{miptthesis}{%
     \fancyhf{}
-    \fancyhead[RO, LE]{\thepage}
-    \fancyhead[CO]{\leftmark}
-    \fancyhead[CE]{\rightmark}
+    % \fancyhead[RO, LE]{\thepage}
+    % \fancyhead[CO]{\leftmark}
+    % \fancyhead[CE]{\rightmark}
+        % \fancyhead[RO, LE]{\thepage}
+    % \fancyhead[CO]{\leftmark}
+    %\fancyhead[R]{\thepage}
+    %\fancyhead[L]{\thesection}
+    \fancyfoot[C]{\thepage}
+
+    
 }
 \pagestyle{miptthesis}
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\chaptermark}[1]{\markboth{\hfill\normalfont #1\hfill}{}}
 \renewcommand{\sectionmark}[1]{\markright{\hfill\large\itshape \S\thesection\quad #1\hfill}}
 \let\partmark=\chaptermark
